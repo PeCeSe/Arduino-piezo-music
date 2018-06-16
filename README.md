@@ -1,4 +1,4 @@
-# Piezo-music
+# Arduino piezo music
 Library for making piezo buzzer play songs with sheet music logic
 
 ## Getting Started
@@ -48,4 +48,4 @@ See [example-music.h](example-music.h) for more songs!
 
 ## Acknowledgments
 
-This project is based on Arduino's [Play a Melody using the tone() function](https://www.arduino.cc/en/Tutorial/toneMelody) tutorial. I just wanted to add a couple of things like rythm, and put it in a handy little library. 
+This project is based on Arduino's [Play a Melody using the tone() function](https://www.arduino.cc/en/Tutorial/toneMelody) tutorial. I just wanted to add a couple of things like tempo and pauses, and put it in a handy little library. 
