@@ -37,6 +37,29 @@ int zelda_main_theme_rythm[] = {
   1
 };
 
+// TETRIS THEME
+int tetris_theme_melody[] = {
+  NOTE_E5, NOTE_B4, NOTE_C5, NOTE_D5, NOTE_C5, NOTE_B4, 
+  NOTE_A4, NOTE_A4, NOTE_C5, NOTE_E5, NOTE_D5, NOTE_C5, 
+  NOTE_B4, NOTE_B4, NOTE_C5, NOTE_D5, NOTE_E5,
+  NOTE_C5, NOTE_A4, NOTE_A4, PAUSE,
+  PAUSE, NOTE_D5, NOTE_F5, NOTE_A5, NOTE_G5, NOTE_F5, 
+  NOTE_E5, NOTE_E5, NOTE_C5, NOTE_E5, NOTE_D5, NOTE_C5, 
+  NOTE_B4, NOTE_B4, NOTE_C5, NOTE_D5, NOTE_E5, 
+  NOTE_C5, NOTE_A4, NOTE_A4, PAUSE
+};
+
+int tetris_theme_rythm[] = {
+  4, 8, 8, 4, 8, 8, 
+  4, 8, 8, 4, 8, 8, 
+  4, 8, 8, 4, 4,
+  4, 4, 4, 4, 
+  8, 4, 8, 4, 8, 8, 
+  4, 8, 8, 4, 8, 8, 
+  4, 8, 8, 4, 4,
+  4, 4, 4, 4
+};
+
 // SUPER MARIO MAIN THEME
 // All credit to this article for this notation: 
 // https://www.princetronics.com/supermariothemesong/
