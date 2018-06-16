@@ -20,7 +20,7 @@ So, let's say you want to play "Twinkle twinkle little star" (the hello world of
 
 ![Twinkle Twinkle Little Star sheet music](https://image.ibb.co/dfffzd/twinkle_twinkle_sheet.png)
 
-Let's first write all the notes in an array (see the available notes listed in `piezo-music.h`): 
+Let's first write all the notes in an array (see the available notes listed in [piezo-music.h](piezo-music.h)): 
 ```
 int twinkle_twinkle_melody[] = {
   NOTE_C4, NOTE_C4, NOTE_G4, NOTE_G4, 
@@ -44,7 +44,7 @@ int size = sizeof(twinkle_twinkle_melody) / sizeof(int); // Get the length of yo
 playSong(BUZZER_PIN, twinkle_twinkle_melody, twinkle_twinkle_rythm, size, 40);
 ```
 
-See `example-music.h` for more songs!
+See [example-music.h](example-music.h) for more songs!
 
 ## Acknowledgments
 
